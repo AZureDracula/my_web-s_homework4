@@ -1,0 +1,63 @@
+.wrap {
+				width: 600px;
+				height: 400px;
+				margin: 100px auto;
+				border: 1px solid #000000;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			#pic {
+				width: 4200px;
+				position: absolute;
+			}
+			
+			#pic li {
+				float: left;
+				height: 400px;
+			}
+			
+			#list {
+				position: absolute;
+				bottom: 10px;
+				left: 150px;
+			}
+			
+			#list li {
+				float: left;
+				width: 15px;
+				height: 15px;
+				background: #fff;
+				margin: 0 18px;
+				border-radius: 50%;
+				cursor: pointer;
+			}
+			
+			#list .on {
+				background: #e27a00;
+			}
+			
+			.Prev {
+				top: 150px;
+				left: 0;
+			}
+			
+			.Next {
+				top: 150px;
+				right: 0;
+			}
+			
+			.Prev,
+			.Next {
+				position: absolute;
+				font-size: 80px;
+				font-weight: bold;
+				color: #fff;
+				-webkit-transition: all 0.35s ease-in-out
+			}
+			
+			.Next:hover,
+			.Prev:hover {
+				background: #ccc;
+				background: rgba(204, 204, 204, 0.4);
+			}

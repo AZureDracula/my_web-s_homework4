@@ -1,0 +1,46 @@
+.tittle_div{
+	border-bottom: solid 4px black;
+	 width: 250px;
+	 margin: 0px 0px 0px 40px;
+	 padding-bottom: 7px;
+	  padding-left: 40px;
+}
+.tittle_span{
+	 font-size: 25px; 
+	 font-family: '黑体'; 
+}
+.bigpart{
+	background-color: #FFFCF5;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 150px;
+}
+.div_bigcommon{
+	margin-top: 40px;
+	text-align: center;
+	
+}
+.div_bigimg{
+	float: left;
+	width: 700px;
+	margin-left:40px ;
+	margin-right: 240px;
+}
+.div_p{
+	font-size:30px;
+	font-family: "楷体";
+	
+
+}
+.div1 {
+				display: none;
+				
+			
+				width: 99%;
+				
+		
+				border: 10px solid black;
+				background-color: #FFFCF5;
+
+			}
